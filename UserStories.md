@@ -14,10 +14,19 @@
 * When using the search feature I want to be able to search by songs/artist/albums/playlist names in a single search
 
 ## Home Page (Artist)
-* After I log in, I want to see all my albums sorted by release date in a single component in a tile view displaying a clickable album image on the home page. If i released a single instead on an album, it should be a tile of single.
-* on the left side of the screen I should see a nav bar with links to "Home" button, "Search" button, "All Tracks", "All Artists", "Liked songs", and a link to each playlist I've created
-* When using the search feature I want to be able to search by songs/artist/albums/playlist names in a single search
-* I should
+* After I log in, I want to see all my albums sorted by release date in a single component in a tile view displaying a clickable album image on the home page. If I released a single instead of an album, it should be a clickable tile of the single's image.
+* On the left side of the screen I should see a nav bar with links to "Home" button, "Search" button, "My Albums", "My Tracks", and "Upload Album"
+* When using the search feature I want to be able to search by my songs & albums
+
+## Upload Album Page (Artist)
+* Once pressing the 'upload album' button, the artist should be redirected to a form. This form will have the following elements: Album Name, Album Image, Album Type, Track Name(s), Track File(s), Genre
+
+## View All Songs (Artist)
+* After pressing 'my tracks', I should be navigated to a page that has a tile view of all my uploaded tracks. These tracks should be able to be deleted once pressed in a modal popup. These tracks can also be updated. The update button and delete button will be two separate buttons, side by side in the modal.
+
+## View All Albums (Artist)
+* After pressing 'my albums', I should be navigated to a page that has a tile view of all my albums. Albums can be deleted once pressed in a modal popup. To delete individual songs, however, the artist should go to the 'view all songs' page. 
+
 * I should be able to upload songs.
 * I should be able to update my uploaded songs.
 * I should be able to delete my uploaded songs.
