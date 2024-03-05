@@ -1,18 +1,23 @@
 ## User Stories
-* As a new user, I want to signup for an account so that I can access the feature of the platform.
-* As a new user when accessing a signup for I want to see a username, email, password, confirm password fields on the form.
 
-* As an existing user, I want to log in to my account using my email and password so that I can view my personalized feed and interact with other users.
-* As a user, I want the login/signup process to include password strength requirements and validation to ensure the security of my account.
-* As a user, I want to have the ability to view trending songs and artists, so that I can discover popular music and join in the converstation.
+## Login & Sign Up
+* On the top right corner of the page, there should be a signup/login button.
+* As a new user, I want to signup for an account so that I can access the feature of the platform.
+* As a new user when clicking the signup button for I want to see a modal that pops up in the center of the page that gives me fields to enter a username, email, password, confirm password fields on the form.
+* As an existing user when clicking the login button I want to see a modal that pops up in the center of the page that gives me fields to enter my email and password.
+* As a user, I want the login/signup process to include password strength requirements and validation to ensure the security of my account. I want errors to show up in red above the form field that is violating the requirements.
+* After successful login/sign up, the login/signup button should be replaced with my user icon, and the modal should close and the page should refresh to display the home page.
 
 ## Home Page (User)
-* As a user, after I log in, I want to see all my playlists on the home page.
-* I want to be able to search songs/artist/albums/playlist names
-* As a user, I want to be able to view music from artists I follow on my homepage, sorted by most recent, so that I can stay updated on the latest content.
-* As a user, I want to be able to search for specific music or topics using keywords
+* After I log in, I want to see all my playlists sorted by last played in a single component in a tile view displaying a clickable playlist image on the home page.
+* on the left side of the screen I should see a nav bar with links to "Home" button, "Search" button, "All Tracks", "All Artists", "Liked songs", and a link to each playlist I've created
+* When using the search feature I want to be able to search by songs/artist/albums/playlist names in a single search
 
 ## Home Page (Artist)
+* After I log in, I want to see all my albums sorted by release date in a single component in a tile view displaying a clickable album image on the home page. If i released a single instead on an album, it should be a tile of single.
+* on the left side of the screen I should see a nav bar with links to "Home" button, "Search" button, "All Tracks", "All Artists", "Liked songs", and a link to each playlist I've created
+* When using the search feature I want to be able to search by songs/artist/albums/playlist names in a single search
+* I should
 * I should be able to upload songs.
 * I should be able to update my uploaded songs.
 * I should be able to delete my uploaded songs.
