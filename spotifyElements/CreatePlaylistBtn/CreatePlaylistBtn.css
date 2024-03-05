@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+}
+
+#CreatePlaylistBtn{
+    background-color: white;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 30px;
+    height: 40px;
+}
+
+#CreatePlaylistBtn:hover{
+    background-color: rgb(237, 237, 237);
+    cursor: pointer;
+    height: 42px;
+    width: 145px;
+}
+
+#CreatePlaylistBtn:active{
+    background-color: rgb(198, 198, 198);
+    height: 40px;
+    width: 135px;
+    cursor: pointer;
+}
