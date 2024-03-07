@@ -1,2 +1,0 @@
-# spotify-group-project
-Spotify
