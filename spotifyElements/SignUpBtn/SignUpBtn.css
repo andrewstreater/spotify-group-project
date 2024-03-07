@@ -1,0 +1,15 @@
+#SignUpBtn::after {
+    background-color: transparent;
+    color: rgb(148, 148, 148);
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    width: 110px;
+}
+
+#SignUpBtn:hover {
+    cursor: pointer;
+    color: white;
+    transition: 25ms;
+    font-size: 20px;
+}
